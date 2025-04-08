@@ -122,6 +122,7 @@
 // }
 import 'package:flutter/material.dart';
 import 'package:tourist_app/screens/restuarent_view.dart';
+import 'package:tourist_app/screens/sign_in.dart';
 import 'package:tourist_app/screens/sign_up.dart';
 import 'screens/product_details.dart';
 
@@ -138,7 +139,7 @@ class MyApp extends StatelessWidget {
       theme: ThemeData.dark().copyWith(
         scaffoldBackgroundColor: const Color.fromARGB(255, 18, 32, 47),
       ),
-      home:  SignUpPage(),
+      home:  SignIn(),
     );
   }
 }
